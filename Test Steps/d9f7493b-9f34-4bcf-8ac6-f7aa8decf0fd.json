@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Select iPhone 15 Plus and place an order",
+        "step 3: Click on button removeItem (remove)",
+        "step 4: Proceed to checkout and enter email for shipping",
+        "step 5: Click on div paymentMethodCashOn",
+        "step 6: Click on button completeOrder -> Navigate to page 'thank-you/*'",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

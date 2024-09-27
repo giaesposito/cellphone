@@ -1,0 +1,82 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Explore Mobile Phones and Place an Order for Samsung Models,"Navigate through mobile categories, select Samsung models, and place an order. Verify the category page.","Step 1: Navigate to /
+Step 2: Click on span phone -> Navigate to page 'category/*'
+Step 3: Click on link mobileBrands (samsung)
+Step 4: Click on div hot
+Step 5: Click on link samsungGalaxyS23UltraHot
+Step 6: Click on link samsungGalaxyZfold5
+Step 7: Click on link mobileBrands (samsung2)
+Step 8: Click on link mobileBrands (googlePixel)
+Step 9: Click on link googlePixel7Pro -> Navigate to page 'product/*'
+Step 10: Click on button buy
+Step 11: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 12: Click on link samsung -> Navigate to page 'category/*'
+Step 13: Take full page screenshot as checkpoint
+",High
+2,Browse Apple Accessories and Place an Order,"Navigate to accessories, select Apple products on sale, and place an order. Check the home page after completing the process.","Step 1: Navigate to /
+Step 2: Click on div object
+Step 3: Click on link accessories
+Step 4: Click on link apple -> Navigate to page 'category/*'
+Step 5: Click on link sale -> Navigate to page 'product/*'
+Step 6: Click on button buy
+Step 7: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+Step 9: Click on link policyDocuments (refundPolicy)
+Step 10: Click on link policyDocuments (privacyPolicy)
+Step 11: Click on link policyDocuments (termsOfService) -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",High
+3,Order iPhone 15 Plus and Verify Checkout Process,"Select iPhone 15 Plus, place an order, return to the cart, explore more products, and verify the checkout process.","Step 1: Navigate to /
+Step 2: Select iPhone 15 Plus and place an order
+	- Step 1: Click on link iphone15PlusNew -> Navigate to page 'product/*'
+	- Step 2: Click on label storageColor (128Gb)
+	- Step 3: Click on label storageColor (blue)
+	- Step 4: Click on button buy3
+	- Step 5: Click on link placeAnOrder
+Step 3: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+Step 4: Click on link backToTheCart -> Navigate to page '/cart'
+Step 5: Click on link about -> Navigate to page '/about'
+Step 6: Click on link apple -> Navigate to page 'category/*'
+Step 7: Click on link sale -> Navigate to page 'product/*'
+Step 8: Click on button buy2
+Step 9: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 10: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+Step 11: Take full page screenshot as checkpoint
+",Medium
+4,Complete Order with iPhone 15 Plus and Verify Thank You Page,"Select iPhone 15 Plus, proceed to checkout, select cash payment, and complete the order. Verify the thank you page.","Step 1: Navigate to /
+Step 2: Select iPhone 15 Plus and place an order
+	- Step 1: Click on link iphone15PlusNew -> Navigate to page 'product/*'
+	- Step 2: Click on label storageColor (128Gb)
+	- Step 3: Click on label storageColor (blue)
+	- Step 4: Click on button buy3
+	- Step 5: Click on link placeAnOrder
+Step 3: Click on button removeItem (remove)
+Step 4: Proceed to checkout and enter email for shipping
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+	- Step 2: Click on input email
+	- Step 3: Click on button continueToShipping
+	- Step 4: Click on input email
+	- Step 5: Click on button continueToShipping
+Step 5: Click on div paymentMethodCashOn
+Step 6: Click on button completeOrder -> Navigate to page 'thank-you/*'
+Step 7: Take full page screenshot as checkpoint
+",Low
+5,Add and Remove Items from Cart while Checking Out,"Browse Apple products, add to cart, modify selections, and proceed to checkout. Verify the checkout process.","Step 1: Navigate to /
+Step 2: Click on link apple -> Navigate to page 'category/*'
+Step 3: Click on button addToCart
+Step 4: Click on label productModelColor (iphone15ProMax)
+Step 5: Click on label productModelColor (winterBlue)
+Step 6: Click on button increased
+Step 7: Click on button buy
+Step 8: Click on link placeAnOrder
+Step 9: Proceed to checkout and enter email for shipping
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+	- Step 2: Click on input email
+	- Step 3: Click on button continueToShipping
+	- Step 4: Click on input email
+	- Step 5: Click on button continueToShipping
+Step 10: Click on link backToTheCart -> Navigate to page '/cart'
+Step 11: Click on button removeItem (remove2)
+Step 12: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+Step 13: Take full page screenshot as checkpoint
+",Trivial
