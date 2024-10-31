@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link apple -> Navigate to page 'category/*'",
+        "step 3: Click on button addToCart",
+        "step 4: Click on label productModelColor (iphone15ProMax)",
+        "step 5: Click on label productModelColor (winterBlue)",
+        "step 6: Click on button increased",
+        "step 7: Click on button buy",
+        "step 8: Click on link placeAnOrder",
+        "step 9: Proceed to checkout and enter email for shipping",
+        "step 10: Click on link backToTheCart -> Navigate to page '/cart'",
+        "step 11: Click on button removeItem (remove2)",
+        "step 12: Click on button proceedToCheckout -> Navigate to page 'checkout/*'",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}
